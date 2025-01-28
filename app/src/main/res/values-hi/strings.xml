@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">फसल भविष्यवक्ता</string>
+    <string name="how_app_works">ऐप कैसे काम करता है</string>
+    <string name="language_settings">भाषा सेटिंग्स</string>
+    <string name="theme_settings">थीम सेटिंग्स</string>
+    <string name="dark_mode">डार्क मोड</string>
+    <string name="light_mode">लाइट मोड</string>
+    <string name="system_default">सिस्टम डिफ़ॉल्ट</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="how_it_works_title">इस ऐप का उपयोग कैसे करें</string>
+    <string name="step_1_title">चरण 1: मिट्टी के मापदंड दर्ज करें</string>
+    <string name="step_1_description">अपनी मिट्टी के NPK मान और pH स्तर दर्ज करें। आप इन्हें मिट्टी परीक्षण किट या प्रयोगशाला विश्लेषण से प्राप्त कर सकते हैं।</string>
+    <string name="step_2_title">चरण 2: मौसम डेटा</string>
+    <string name="step_2_description">वर्तमान मौसम की स्थिति स्वचालित रूप से प्राप्त करने के लिए \"मौसम डेटा प्राप्त करें\" पर क्लिक करें, या मैन्युअल रूप से दर्ज करें।</string>
+    <string name="step_3_title">चरण 3: भविष्यवाणी प्राप्त करें</string>
+    <string name="step_3_description">आपकी परिस्थितियों में उगाने के लिए सर्वोत्तम फसलों की AI-संचालित सिफारिशें प्राप्त करने के लिए \"फसल की भविष्यवाणी करें\" पर क्लिक करें।</string>
+    <string name="settings_saved">सेटिंग्स सफलतापूर्वक सहेजी गईं</string>
+    <string name="permission_required">अनुमति आवश्यक</string>
+    <string name="internet_permission_required">मौसम डेटा प्राप्त करने के लिए इंटरनेट की अनुमति आवश्यक है</string>
+    <string name="internet_permission_explanation">सटीक फसल भविष्यवाणी के लिए वर्तमान मौसम डेटा प्राप्त करने के लिए इंटरनेट एक्सेस की आवश्यकता है। कृपया अनुमति प्रदान करें।</string>
+    <string name="grant">अनुमति दें</string>
+    <string name="deny">मना करें</string>
+    <string name="current_location">वर्तमान स्थान: %s</string>
+    <string name="location_permission_explanation">आपके वर्तमान स्थान के मौसम का डेटा प्राप्त करने के लिए स्थान की अनुमति आवश्यक है। कृपया अनुमति प्रदान करें।</string>
+    <string name="location_services_disabled">स्थान सेवाएं बंद हैं</string>
+    <string name="enable_location_message">कृपया अपने वर्तमान स्थान के मौसम का डेटा प्राप्त करने के लिए स्थान सेवाएं सक्षम करें।</string>
+    <string name="open_settings">सेटिंग्स खोलें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="prediction_result">भविष्यवाणी परिणाम</string>
+    <string name="confidence_format">विश्वास: %d%%</string>
+    <string name="close">बंद करें</string>
+    <string name="no_history">अभी तक कोई भविष्यवाणी इतिहास नहीं</string>
+    <string name="parameters_format">N: %.1f, P: %.1f, K: %.1f\npH: %.1f, तापमान: %.1f°C\nआर्द्रता: %.1f%%, वर्षा: %.1fमिमी</string>
+    <string name="open_gemini">जेमिनी AI खोलें</string>
+</resources> 

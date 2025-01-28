@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/gemini_color" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_gemini_custom"
+        android:gravity="center"
+        android:width="20dp"
+        android:height="20dp"/>
+</layer-list> 

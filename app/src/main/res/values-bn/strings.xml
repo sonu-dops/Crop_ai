@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ফসল ভবিষ্যদ্বাণীকারক</string>
+    <string name="how_app_works">অ্যাপ কীভাবে কাজ করে</string>
+    <string name="language_settings">ভাষা সেটিংস</string>
+    <string name="theme_settings">থিম সেটিংস</string>
+    <string name="dark_mode">ডার্ক মোড</string>
+    <string name="light_mode">লাইট মোড</string>
+    <string name="system_default">সিস্টেম ডিফল্ট</string>
+    <string name="select_language">ভাষা নির্বাচন করুন</string>
+    <string name="how_it_works_title">এই অ্যাপ কীভাবে ব্যবহার করবেন</string>
+    <string name="step_1_title">ধাপ ১: মাটির পরামিতি লিখুন</string>
+    <string name="step_1_description">আপনার মাটির NPK মান এবং pH স্তর লিখুন। আপনি এগুলি মাটি পরীক্ষার কিট বা ল্যাবরেটরি বিশ্লেষণ থেকে পেতে পারেন।</string>
+    <string name="step_2_title">ধাপ ২: আবহাওয়ার তথ্য</string>
+    <string name="step_2_description">বর্তমান আবহাওয়ার অবস্থা স্বয়ংক্রিয়ভাবে পেতে \"আবহাওয়ার তথ্য আনুন\" ক্লিক করুন, অথবা ম্যানুয়ালি লিখুন।</string>
+    <string name="step_3_title">ধাপ ৩: পূর্বাভাস পান</string>
+    <string name="step_3_description">আপনার অবস্থায় চাষের জন্য সেরা ফসলের AI-চালিত সুপারিশ পেতে \"ফসল পূর্বাভাস করুন\" ক্লিক করুন।</string>
+    <string name="settings_saved">সেটিংস সফলভাবে সংরক্ষিত হয়েছে</string>
+    <string name="permission_required">অনুমতি প্রয়োজন</string>
+    <string name="internet_permission_required">আবহাওয়ার তথ্য পেতে ইন্টারনেট অনুমতি প্রয়োজন</string>
+    <string name="internet_permission_explanation">সঠিক ফসল পূর্বাভাসের জন্য বর্তমান আবহাওয়ার তথ্য পেতে ইন্টারনেট অ্যাক্সেস প্রয়োজন। অনুগ্রহ করে অনুমতি দিন।</string>
+    <string name="grant">অনুমতি দিন</string>
+    <string name="deny">প্রত্যাখ্যান করুন</string>
+    <string name="current_location">বর্তমান অবস্থান: %s</string>
+    <string name="location_permission_explanation">আপনার বর্তমান অবস্থানের আবহাওয়ার তথ্য পেতে লোকেশন অ্যাক্সেস প্রয়োজন। অনুগ্রহ করে অনুমতি দিন।</string>
+    <string name="location_services_disabled">লোকেশন সার্ভিস বন্ধ আছে</string>
+    <string name="enable_location_message">আপনার বর্তমান অবস্থানের আবহাওয়ার তথ্য পেতে অনুগ্রহ করে লোকেশন সার্ভিস চালু করুন।</string>
+    <string name="open_settings">সেটিংস খুলুন</string>
+    <string name="cancel">বাতিল</string>
+    <string name="prediction_result">পূর্বাভাসের ফলাফল</string>
+    <string name="confidence_format">আত্মবিশ্বাস: %d%%</string>
+    <string name="close">বন্ধ করুন</string>
+    <string name="no_history">এখনও কোন পূর্বাভাসের ইতিহাস নেই</string>
+    <string name="parameters_format">N: %.1f, P: %.1f, K: %.1f\npH: %.1f, তাপমাত্রা: %.1f°C\nআর্দ্রতা: %.1f%%, বৃষ্টিপাত: %.1fমিমি</string>
+    <string name="open_gemini">জেমিনি AI খুলুন</string>
+</resources> 

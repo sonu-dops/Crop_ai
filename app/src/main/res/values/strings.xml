@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crop Predictor</string>
+    <string name="home">Home</string>
+    <string name="predict">Predict</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome to Crop Predictor</string>
+    <string name="start_prediction">Start Prediction</string>
+    <string name="view_guidelines">View Guidelines</string>
+    
+    <!-- Prediction Screen -->
+    <string name="soil_parameters">Soil Parameters</string>
+    <string name="weather_parameters">Weather Parameters</string>
+    <string name="nitrogen_n">Nitrogen (N)</string>
+    <string name="phosphorus_p">Phosphorus (P)</string>
+    <string name="potassium_k">Potassium (K)</string>
+    <string name="ph_level">pH Level</string>
+    <string name="temperature">Temperature (°C)</string>
+    <string name="humidity">Humidity (%)</string>
+    <string name="rainfall">Rainfall (mm)</string>
+    <string name="fetch_weather_data">Fetch Weather Data</string>
+    <string name="predict_crop">Predict Crop</string>
+    
+    <!-- Settings Screen -->
+    <string name="language">Language</string>
+    <string name="offline_mode">Offline Mode</string>
+    <string name="enable_offline_mode">Enable Offline Mode</string>
+    <string name="save_settings">Save Settings</string>
+    
+    <!-- New translations -->
+    <string name="how_app_works">How App Works</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="system_default">System Default</string>
+    <string name="select_language">Select Language</string>
+    
+    <!-- How It Works Screen -->
+    <string name="how_it_works_title">How to Use This App</string>
+    <string name="step_1_title">Step 1: Enter Soil Parameters</string>
+    <string name="step_1_description">Enter your soil\'s NPK values and pH level. You can get these from a soil testing kit or laboratory analysis.</string>
+    <string name="step_2_title">Step 2: Weather Data</string>
+    <string name="step_2_description">Click \"Fetch Weather Data\" to automatically get current weather conditions, or enter them manually.</string>
+    <string name="step_3_title">Step 3: Get Prediction</string>
+    <string name="step_3_description">Click \"Predict Crop\" to get AI-powered recommendations for the best crops to grow in your conditions.</string>
+    
+    <!-- Settings -->
+    <string name="settings_saved">Settings saved successfully</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">Permission Required</string>
+    <string name="internet_permission_required">Internet permission is required to fetch weather data</string>
+    <string name="internet_permission_explanation">Internet access is needed to get current weather data for accurate crop predictions. Please grant the permission.</string>
+    <string name="grant">Grant</string>
+    <string name="deny">Deny</string>
+    <string name="current_location">Current Location: %s</string>
+    <string name="location_permission_explanation">Location access is needed to get weather data for your current location. Please grant the permission.</string>
+    <string name="location_services_disabled">Location Services Disabled</string>
+    <string name="enable_location_message">Please enable location services to get weather data for your current location.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="prediction_result">Prediction Result</string>
+    <string name="confidence_format">Confidence: %d%%</string>
+    <string name="close">Close</string>
+    <string name="no_history">No Prediction History</string>
+    <string name="make_prediction">Make your first prediction to see your history here</string>
+    <string name="parameters_format">N: %.1f, P: %.1f, K: %.1f\npH: %.1f, Temp: %.1f°C\nHumidity: %.1f%%, Rainfall: %.1fmm</string>
+    <string name="open_gemini">Open Gemini AI</string>
+    
+    <!-- Crop Descriptions -->
+    <string name="crop_description_rice">Rice thrives in warm temperatures between 21–37°C with high humidity and rainfall.</string>
+    <string name="crop_description_wheat">Wheat grows best in moderate temperatures with well-drained soil.</string>
+    <string name="crop_description_maize">Maize requires full sunlight and warm temperatures for optimal growth.</string>
+    <string name="crop_description_chickpea">Chickpeas prefer well-drained soil and moderate temperatures.</string>
+    <string name="crop_description_kidneybeans">Kidney beans need warm soil and full sun exposure.</string>
+    <string name="crop_description_pigeonpeas">Pigeon peas are drought-resistant and suit tropical conditions.</string>
+    <string name="crop_description_mothbeans">Moth beans are highly drought-tolerant legumes.</string>
+    <string name="crop_description_mungbean">Mung beans grow well in warm, humid conditions.</string>
+    <string name="crop_description_blackgram">Black gram prefers warm and humid climate.</string>
+    <string name="crop_description_lentil">Lentils thrive in cool conditions with moderate rainfall.</string>
+    <string name="crop_description_pomegranate">Pomegranates need hot, dry summers and cool winters.</string>
+    <string name="crop_description_banana">Bananas require tropical conditions with high humidity.</string>
+    <string name="crop_description_mango">Mangoes need warm climate and well-drained soil.</string>
+    <string name="crop_description_grapes">Grapes prefer Mediterranean climate conditions.</string>
+    <string name="crop_description_watermelon">Watermelons need long, hot summers to mature.</string>
+    <string name="crop_description_muskmelon">Muskmelons require warm temperatures and sunny conditions.</string>
+    <string name="crop_description_apple">Apples need cool winters and moderate summers.</string>
+    <string name="crop_description_orange">Oranges thrive in subtropical climates.</string>
+    <string name="crop_description_papaya">Papayas grow best in tropical and subtropical areas.</string>
+    <string name="crop_description_coconut">Coconut palms need tropical climate with sandy soil.</string>
+    <string name="crop_description_cotton">Cotton needs long, hot summers and abundant sunshine.</string>
+    <string name="crop_description_jute">Jute grows well in warm, humid conditions.</string>
+    <string name="fetching_weather">Fetching...</string>
+    <string name="crop_description_potato">Potatoes thrive in cool weather with well-drained, fertile soil.</string>
+    <string name="crop_description_tomato">Tomatoes need warm conditions and consistent moisture.</string>
+    <string name="crop_description_sugarcane">Sugarcane requires tropical climate with high rainfall.</string>
+    <string name="crop_description_groundnut">Groundnuts grow best in light, well-drained soils.</string>
+    <string name="crop_description_soybean">Soybeans prefer warm temperatures and well-drained soil.</string>
+    <string name="crop_description_black_gram">Black gram thrives in warm, humid conditions.</string>
+    <string name="crop_description_mung_bean">Mung beans are heat-tolerant and drought-resistant.</string>
+    <string name="crop_description_spinach">Spinach grows best in cool weather with nitrogen-rich soil.</string>
+    <string name="crop_description_carrot">Carrots need loose, well-drained soil rich in phosphorus.</string>
+    <string name="crop_description_green_peas">Green peas prefer cool weather and moderate moisture.</string>
+    <string name="crop_description_mustard">Mustard grows well in cool, dry conditions with moderate rainfall.</string>
+    <string name="crop_description_pigeon_pea">Pigeon pea is drought-tolerant and suits tropical and subtropical regions.</string>
+    <string name="crop_description_onion">Onions need well-drained soil and moderate temperatures.</string>
+    <string name="crop_description_turmeric">Turmeric thrives in warm, humid conditions with good rainfall.</string>
+    <string name="crop_description_chilli">Chillies need warm weather and well-drained fertile soil.</string>
+    <string name="crop_description_tea">Tea requires high rainfall and humidity with acidic soil.</string>
+    <string name="crop_description_pearl_millet">Pearl millet is highly drought-resistant and heat-tolerant.</string>
+    <string name="crop_description_sorghum">Sorghum is drought-tolerant and thrives in warm conditions.</string>
+    <string name="crop_description_bajra">Bajra is highly adaptable to arid conditions and poor soils.</string>
+    <string name="crop_description_ragi">Ragi is nutritious and suited to moderate rainfall areas.</string>
+    <string name="crop_description_red_gram">Red gram is drought-resistant and suits semi-arid regions.</string>
+    <string name="crop_description_horse_gram">Horse gram is hardy and grows well in dry conditions.</string>
+    <string name="crop_description_sesame">Sesame prefers well-drained soils and warm climate.</string>
+    <string name="crop_description_sunflower">Sunflower needs full sun and moderate water.</string>
+    <string name="crop_description_castor">Castor is drought-tolerant and suits tropical conditions.</string>
+    <string name="crop_description_brinjal">Brinjal needs warm weather and fertile soil.</string>
+    <string name="crop_description_cauliflower">Cauliflower prefers cool weather and rich soil.</string>
+    <string name="crop_description_cabbage">Cabbage grows best in cool, moist conditions.</string>
+    <string name="crop_description_ginger">Ginger needs warm, humid conditions and rich soil.</string>
+    <string name="crop_description_cardamom">Cardamom requires high rainfall and humid conditions.</string>
+    <string name="crop_description_black_pepper">Black pepper thrives in hot, humid climate with good rainfall.</string>
+    <string name="crop_description_guava">Guava adapts to various soils but needs good drainage.</string>
+    <string name="crop_description_litchi">Litchi needs subtropical climate with winter chilling.</string>
+    <string name="crop_description_pineapple">Pineapple thrives in tropical climate with good rainfall.</string>
+    <string name="crop_description_coffee">Coffee requires shade, high altitude and well-drained soil.</string>
+    <string name="crop_description_rubber">Rubber needs high rainfall and humidity with no frost.</string>
+    <string name="crop_description_amaranth">Amaranth is heat-tolerant and rich in nutrients.</string>
+    <string name="crop_description_finger_millet">Finger millet is drought-resistant and nutritious.</string>
+    <string name="crop_description_water_chestnut">Water chestnut grows in aquatic conditions.</string>
+    <string name="crop_description_moth_bean">Moth bean is extremely drought-tolerant.</string>
+    <string name="crop_description_cowpea">Cowpea is heat-tolerant and fixes nitrogen in soil.</string>
+    <string name="crop_description_bitter_gourd">Bitter gourd needs warm climate and trellising.</string>
+    <string name="crop_description_bottle_gourd">Bottle gourd grows well in warm, humid conditions.</string>
+    <string name="crop_description_ridge_gourd">Ridge gourd needs support and warm weather.</string>
+    <string name="crop_description_fenugreek">Fenugreek is a quick-growing leafy vegetable.</string>
+    <string name="crop_description_amaranth_leaves">Amaranth leaves are rich in iron and grow quickly.</string>
+    <string name="crop_description_coriander">Coriander prefers cool weather and well-drained soil.</string>
+    <string name="crop_description_cumin">Cumin needs dry conditions and moderate temperatures.</string>
+    <string name="crop_description_fennel">Fennel grows best in cool, dry conditions.</string>
+    <string name="crop_description_custard_apple">Custard apple is drought-tolerant and low-maintenance.</string>
+    <string name="crop_description_jackfruit">Jackfruit needs tropical climate and deep soils.</string>
+    <string name="crop_description_sapota">Sapota thrives in warm, humid conditions.</string>
+    <string name="crop_description_lemongrass">Lemongrass needs warm climate and good rainfall.</string>
+    <string name="crop_description_aloe_vera">Aloe vera is drought-resistant and suits arid regions.</string>
+    <string name="crop_description_stevia">Stevia needs well-drained soil and moderate climate.</string>
+    <string name="crop_description_marigold">Marigold is hardy and grows in various conditions.</string>
+    <string name="crop_description_rose">Roses need good sunlight and well-drained soil.</string>
+    <string name="crop_description_jasmine">Jasmine prefers warm climate and regular watering.</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="watch_guide">Watch Guide</string>
+    <string name="youtube_error">Could not open YouTube</string>
+    
+    <!-- Add these new strings -->
+    <string name="data_settings">Data Settings</string>
+    <string name="data_saving_mode">Data Saving Mode</string>
+    <string name="data_saving_description">Reduce data usage by limiting weather updates and image quality</string>
+    <string name="weather_settings">Weather Update Settings</string>
+    <string name="weather_interval_format">Update weather every %d minutes</string>
+    <string name="unit_settings">Unit System</string>
+    <string name="metric_system">Metric (°C, mm)</string>
+    <string name="imperial_system">Imperial (°F, in)</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="analyze_crop">Analyze Crop Issues</string>
+    <string name="ph">pH Level</string>
+    <string name="fetch_weather">Fetch Weather</string>
+</resources>

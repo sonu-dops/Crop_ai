@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.croppredictor.ui.home.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_homeFragment_to_predictionFragment"
+            app:destination="@id/predictionFragment"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_homeFragment_to_howItWorksFragment"
+            app:destination="@id/howItWorksFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_farmingAnalysisFragment"
+            app:destination="@id/farmingAnalysisFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/predictionFragment"
+        android:name="com.example.croppredictor.ui.prediction.PredictionFragment"
+        android:label="Prediction">
+        <action
+            android:id="@+id/action_predictionFragment_to_farmingAnalysisFragment"
+            app:destination="@id/farmingAnalysisFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:launchSingleTop="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.croppredictor.ui.history.HistoryFragment"
+        android:label="History">
+        <action
+            android:id="@+id/action_historyFragment_to_farmingAnalysisFragment"
+            app:destination="@id/farmingAnalysisFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.croppredictor.ui.settings.SettingsFragment"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/howItWorksFragment"
+        android:name="com.example.croppredictor.ui.howitworks.HowItWorksFragment"
+        android:label="How It Works" />
+
+    <fragment
+        android:id="@+id/farmingAnalysisFragment"
+        android:name="com.example.croppredictor.ui.analysis.FarmingAnalysisFragment"
+        android:label="Farming Analysis" />
+</navigation> 
